@@ -1,23 +1,39 @@
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
+import { IoMoon } from 'react-icons/io5';
+import { IoSunny } from 'react-icons/io5';
 
 export default function Navbar() {
+  const [dark, setDark] = useState(false);
+  function darkModeHandler() {
+    setDark(!dark);
+    document.body.classList.toggle('dark');
+  }
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900">
+    <nav className="bg-[#295943] border-gray-200 sticky inset-0 z-50 border-b  backdrop-blur-lg dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        {/* title */}
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="" className="h-8" alt="" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Wonderfull Bali</span>
+          <span className="text-white self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Wonderfull Bali</span>
         </a>
+
         {/* button */}
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          {/* darkmode button */}
+          <button id="theme-toggle" type="button" onClick={() => darkModeHandler()} className="dark:text-gray-400 hover:bg-[#1da868] dark:hover:bg-gray-700 rounded-lg text-sm p-2.5">
+            {dark && <IoSunny className="text-white" />}
+            {!dark && <IoMoon className="text-white" />}
+          </button>
+          {/* change languange button */}
           <button
             type="button"
             data-dropdown-toggle="language-dropdown-menu"
-            className="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
+            className="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-white dark:text-white rounded-lg cursor-pointer hover:bg-[#1da868] dark:hover:bg-gray-700 dark:hover:text-white"
           >
-            <svg className="w-5 h-5 rounded-full me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900">
+            <svg className="w-5 h-5 rounded-full me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3900 3900">
               <path fill="#b22234" d="M0 0h7410v3900H0z" />
-              <path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff" stroke-width="300" />
+              <path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff" strokeWidth="300" />
               <path fill="#3c3b6e" d="M0 0h2964v2100H0z" />
               <g fill="#fff">
                 <g id="d">
@@ -25,19 +41,19 @@ export default function Navbar() {
                     <g id="e">
                       <g id="b">
                         <path id="a" d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z" />
-                        <use xlink:href="#a" y="420" />
-                        <use xlink:href="#a" y="840" />
-                        <use xlink:href="#a" y="1260" />
+                        <use xlinkHref="#a" y="420" />
+                        <use xlinkHref="#a" y="840" />
+                        <use xlinkHref="#a" y="1260" />
                       </g>
-                      <use xlink:href="#a" y="1680" />
+                      <use xlinkHref="#a" y="1680" />
                     </g>
-                    <use xlink:href="#b" x="247" y="210" />
+                    <use xlinkHref="#b" x="247" y="210" />
                   </g>
-                  <use xlink:href="#c" x="494" />
+                  <use xlinkHref="#c" x="494" />
                 </g>
-                <use xlink:href="#d" x="988" />
-                <use xlink:href="#c" x="1976" />
-                <use xlink:href="#e" x="2470" />
+                <use xlinkHref="#d" x="988" />
+                <use xlinkHref="#c" x="1976" />
+                <use xlinkHref="#e" x="2470" />
               </g>
             </svg>
             English (US)
@@ -49,8 +65,8 @@ export default function Navbar() {
                 <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
                   <div className="inline-flex items-center">
                     <svg aria-hidden="true" className="h-3.5 w-3.5 rounded-full me-2" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-us" viewBox="0 0 512 512">
-                      <g fill-rule="evenodd">
-                        <g stroke-width="1pt">
+                      <g fillRule="evenodd">
+                        <g strokeWidth="1pt">
                           <path fill="#bd3d44" d="M0 0h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z" transform="scale(3.9385)" />
                           <path fill="#fff" d="M0 10h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z" transform="scale(3.9385)" />
                         </g>
@@ -82,7 +98,7 @@ export default function Navbar() {
                 <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
                   <div className="inline-flex items-center">
                     <svg className="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-it" viewBox="0 0 512 512">
-                      <g fill-rule="evenodd" stroke-width="1pt">
+                      <g fillRule="evenodd" strokeWidth="1pt">
                         <path fill="#fff" d="M0 0h512v512H0z" />
                         <path fill="#009246" d="M0 0h170.7v512H0z" />
                         <path fill="#ce2b37" d="M341.3 0H512v512H341.3z" />
@@ -95,16 +111,16 @@ export default function Navbar() {
               <li>
                 <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
                   <div className="inline-flex items-center">
-                    <svg className="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icon-css-cn" viewBox="0 0 512 512">
+                    <svg className="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-cn" viewBox="0 0 512 512">
                       <defs>
                         <path id="a" fill="#ffde00" d="M1-.3L-.7.8 0-1 .6.8-1-.3z" />
                       </defs>
                       <path fill="#de2910" d="M0 0h512v512H0z" />
-                      <use width="30" height="20" transform="matrix(76.8 0 0 76.8 128 128)" xlink:href="#a" />
-                      <use width="30" height="20" transform="rotate(-121 142.6 -47) scale(25.5827)" xlink:href="#a" />
-                      <use width="30" height="20" transform="rotate(-98.1 198 -82) scale(25.6)" xlink:href="#a" />
-                      <use width="30" height="20" transform="rotate(-74 272.4 -114) scale(25.6137)" xlink:href="#a" />
-                      <use width="30" height="20" transform="matrix(16 -19.968 19.968 16 256 230.4)" xlink:href="#a" />
+                      <use width="30" height="20" transform="matrix(76.8 0 0 76.8 128 128)" xlinkHref="#a" />
+                      <use width="30" height="20" transform="rotate(-121 142.6 -47) scale(25.5827)" xlinkHref="#a" />
+                      <use width="30" height="20" transform="rotate(-98.1 198 -82) scale(25.6)" xlinkHref="#a" />
+                      <use width="30" height="20" transform="rotate(-74 272.4 -114) scale(25.6137)" xlinkHref="#a" />
+                      <use width="30" height="20" transform="matrix(16 -19.968 19.968 16 256 230.4)" xlinkHref="#a" />
                     </svg>
                     中文 (繁體)
                   </div>
@@ -121,20 +137,21 @@ export default function Navbar() {
           >
             <span className="sr-only">Open main menu</span>
             <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+              <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
             </svg>
           </button>
         </div>
+
         {/* nav link */}
         <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-          <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-[#1da868] rounded-lg bg-[#1da868] md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-[#295943] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <NavLink
                 to="/culturalgallery"
                 className={({ isActive }) =>
                   isActive
-                    ? 'block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500'
-                    : 'block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
+                    ? 'block py-2 px-3 md:p-0 text-white bg-[#1da868] rounded md:bg-transparent md:text-[#1da868] md:dark:text-blue-500'
+                    : 'block py-2 px-3 md:p-0 text-white rounded hover:bg-[#1da868] md:hover:bg-transparent md:hover:text-[#1da868] md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
                 }
               >
                 Cultural Gallery
@@ -145,8 +162,8 @@ export default function Navbar() {
                 to="/tourism"
                 className={({ isActive }) =>
                   isActive
-                    ? 'block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500'
-                    : 'block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
+                    ? 'block py-2 px-3 md:p-0 text-white bg-[#1da868] rounded md:bg-transparent md:text-[#1da868] md:dark:text-blue-500'
+                    : 'block py-2 px-3 md:p-0 text-white rounded hover:bg-[#1da868] md:hover:bg-transparent md:hover:text-[#1da868] md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
                 }
               >
                 Tourism
@@ -157,8 +174,8 @@ export default function Navbar() {
                 to="/agriculture"
                 className={({ isActive }) =>
                   isActive
-                    ? 'block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500'
-                    : 'block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
+                    ? 'block py-2 px-3 md:p-0 text-white bg-[#1da868] rounded md:bg-transparent md:text-[#1da868] md:dark:text-blue-500'
+                    : 'block py-2 px-3 md:p-0 text-white rounded hover:bg-[#1da868] md:hover:bg-transparent md:hover:text-[#1da868] md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
                 }
               >
                 Agriculture

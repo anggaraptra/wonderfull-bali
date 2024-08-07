@@ -1,4 +1,4 @@
-export default function GalleryHome() {
+export default function ImageCard() {
   return (
     <div className="p-6 grid grid-cols-2 md:grid-cols-3 gap-4">
       <div>
