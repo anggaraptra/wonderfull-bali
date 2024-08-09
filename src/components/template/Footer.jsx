@@ -6,9 +6,8 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:gap-8 md:justify-between">
           {/* judul */}
           <div className="grid grid-rows-3 md:mb-0 md:w-1/4">
-            <a href="" className="flex items-center">
-              <img src="" className="h-8 me-3" alt="" />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap text-white dark:text-white">Wonderfull Bali</span>
+            <a href="" className="flex place-content-center items-center">
+              <img src="./img/wonderfull_bali.png" className="h-20 me-3" alt="" />
             </a>
             <div className="mb-4 md:text-wrap md:mb-0 ">
               <article className="text-sm text-gray-300 md:text-justify sm:text-center dark:text-gray-400">
@@ -96,22 +95,22 @@ export default function Footer() {
                 <ul className="text-gray-300 dark:text-gray-400 font-medium">
                   <li className="mb-4">
                     <a href="https://github.com/themesberg/flowbite" className="hover:underline ">
-                      Discover
+                      Jalan Pulau Bali No. 9B
                     </a>
                   </li>
                   <li className="mb-4">
                     <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">
-                      Services
+                      wonderfulbali@gmail.com
                     </a>
                   </li>
                   <li className="mb-4">
                     <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">
-                      Community
+                      0361 476 899
                     </a>
                   </li>
                   <li className="mb-4">
                     <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">
-                      About Us
+                      Denpasar, Bali
                     </a>
                   </li>
                 </ul>

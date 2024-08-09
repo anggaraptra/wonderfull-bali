@@ -10,19 +10,18 @@ export default function Navbar() {
     document.body.classList.toggle('dark');
   }
   return (
-    <section className="flex flex-col min-h-screen bg-center bg-cover bg-blend-overlay bg-black/20 bg-fixed bg-[url(./img/Header.png)] text-white">
+    <section className="flex flex-col min-h-screen bg-center bg-cover bg-blend-overlay bg-black/70 bg-fixed bg-[url(./img/homepage/header.jpg)] text-white">
       <nav className="inset-0 z-50">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           {/* title */}
           <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="" className="h-8" alt="" />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Wonderfull Bali</span>
+            <img src="./img/wonderfull_bali.png" className="h-12 w-full" alt="" />
           </a>
 
           {/* button */}
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             {/* darkmode button */}
-            <button id="theme-toggle" type="button" onClick={() => darkModeHandler()} className="dark:text-gray-400 hover:bg-[#1da868] hover:text-white dark:hover:bg-gray-700 rounded-lg text-sm p-2.5">
+            <button id="theme-toggle" type="button" onClick={() => darkModeHandler()} className="dark:text-white hover:bg-[#1da868] hover:text-white dark:hover:bg-gray-700 dark:hover:text-white rounded-lg text-sm p-2.5">
               {dark && <IoSunny className="" />}
               {!dark && <IoMoon className="" />}
             </button>
@@ -190,7 +189,7 @@ export default function Navbar() {
         <div className="relative text-center mx-auto">
           <h1 className="text-5xl mb-6">Explore Bali With A Smile</h1>
           <button className="absolute right-28 top-20 rounded-lg px-3 py-1 bg-[#1da868] text-white z-10">Find Now</button>
-          <input type="text" className="px-20 py-3 rounded-xl font-normal text-black outline outline-0" placeholder="City or Destination..." />
+          <input type="text" className="w-80 px-3 py-3 rounded-xl font-normal text-black outline outline-0" placeholder="City or Destination..." />
         </div>
       </div>
     </section>

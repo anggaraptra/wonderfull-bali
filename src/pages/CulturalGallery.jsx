@@ -6,7 +6,14 @@ export default function CulturalGallery() {
   return (
     <>
       <Navbar />
-      <Section></Section>
+      <Section className="w-full">
+        <div className="flex h-80 bg-cover bg-blend-overlay bg-black/80 bg-[url(./img/cultural/culture_header.jpg)] text-white ">
+          <h1 className="place-content-end font-bold text-7xl py-20 px-16">Cultural Gallery</h1>
+        </div>
+      </Section>
+      <Section className="min-h-screen p-10">
+        <div className="flex"></div>
+      </Section>
       <Footer />
     </>
   );

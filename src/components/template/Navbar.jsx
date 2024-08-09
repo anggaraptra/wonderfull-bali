@@ -10,12 +10,11 @@ export default function Navbar() {
     document.body.classList.toggle('dark');
   }
   return (
-    <nav className="bg-[#295943] border-gray-200 sticky inset-0 z-50 border-b  backdrop-blur-lg dark:bg-gray-900">
+    <nav className="bg-[#295943] border-gray-200 sticky inset-0 z-50  backdrop-blur-lg dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         {/* title */}
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="" className="h-8" alt="" />
-          <span className="text-white self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Wonderfull Bali</span>
+          <img src="./img/wonderfull_bali.png" className="h-12" alt="" />
         </a>
 
         {/* button */}

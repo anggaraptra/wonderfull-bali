@@ -1,15 +1,7 @@
-export default function ImageCard() {
+export default function ImageCard({ img, text }) {
   return (
-    <div className="p-6 grid grid-cols-2 md:grid-cols-3 gap-4">
-      <div>
-        <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="" />
-      </div>
-      <div>
-        <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="" />
-      </div>
-      <div>
-        <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="" />
-      </div>
+    <div className={`flex flex-col h-80 w-full rounded-lg bg-[url(${img})] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white`}>
+      <h1 className="text-center p-6 text-2xl">{text}</h1>
     </div>
   );
 }
