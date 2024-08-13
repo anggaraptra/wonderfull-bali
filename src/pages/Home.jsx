@@ -8,8 +8,8 @@ export default function Home() {
       <NavbarHero />
       <Section className="bg-[#295943] text-white">
         <div className="container mx-auto p-6">
-          <div className="flex flex-wrap -mx-4 py-20">
-            <div className="flex w-full lg:w-1/2 px-4 gap-4 mb-10 md:mb-0 items-center justify-center">
+          <div className="flex flex-col -mx-4 py-20 gap-6 md:flex-row">
+            <div className="flex w-full lg:w-1/2 px-4 gap-4 md:mb-0 items-center justify-center">
               <div className="w-56 h-96">
                 <img src="./img/homepage/sanur_bali.jpg" alt="culture" className="object-cover w-full h-full rounded-xl" />
               </div>
@@ -41,42 +41,42 @@ export default function Home() {
           <div className="md:px-10 flex flex-col gap-16 font-bold">
             <div className="flex flex-col gap-8">
               <h1 className="text-lg md:text-xl border-b-4 w-40 border-[#1da868]">Cultural Gallery</h1>
-              <div className="flex flex-row gap-4">
-                <div className={`flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/upacara_adat.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white`}>
+              <div className="flex flex-col p-5 gap-4 md:flex-row md:p-0">
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/upacara_adat.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white">
                   <h1 className="text-center p-6 text-2xl">Tradisi</h1>
                 </div>
-                <div className={`flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/tarian.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white`}>
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/tarian.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white">
                   <h1 className="text-center p-6 text-2xl">Tari Tarian</h1>
                 </div>
-                <div className={`flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/kerajinan.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white`}>
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/kerajinan.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white">
                   <h1 className="text-center p-6 text-2xl">Kerajinan</h1>
                 </div>
               </div>
             </div>
             <div className="flex flex-col gap-6">
               <h1 className="text-lg md:text-xl border-b-4 w-20 border-[#1da868]">Tourism</h1>
-              <div className="flex flex-row gap-4">
-                <div className={`flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/wisata.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white`}>
+              <div className="flex flex-col p-5 gap-4 md:flex-row md:p-0">
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/wisata.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white">
                   <h1 className="text-center p-6 text-2xl">Tempat</h1>
                 </div>
-                <div className={`flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/swing_bali.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white`}>
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/swing_bali.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white">
                   <h1 className="text-center p-6 text-2xl">Wahana</h1>
                 </div>
-                <div className={`flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/pantai.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white`}>
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/pantai.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white">
                   <h1 className="text-center p-6 text-2xl">Pantai</h1>
                 </div>
               </div>
             </div>
             <div className="flex flex-col gap-6">
               <h1 className="text-lg md:text-xl border-b-4 w-28 border-[#1da868]">Agriculture</h1>
-              <div className="flex flex-row gap-4">
-                <div className={`flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/padi.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white`}>
+              <div className="flex flex-col p-5 gap-4 md:flex-row md:p-0">
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/padi.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white">
                   <h1 className="text-center p-6 text-2xl">Padi</h1>
                 </div>
-                <div className={`flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/pohon_kopi.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white`}>
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/pohon_kopi.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white">
                   <h1 className="text-center p-6 text-2xl">Kopi</h1>
                 </div>
-                <div className={`flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/jeruk.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white`}>
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/jeruk.jpg)] bg-center bg-cover bg-blend-overlay bg-black/50 place-content-end text-white">
                   <h1 className="text-center p-6 text-2xl">Jeruk</h1>
                 </div>
               </div>

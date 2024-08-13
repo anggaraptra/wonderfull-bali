@@ -10,18 +10,23 @@ export default function Navbar() {
     document.body.classList.toggle('dark');
   }
   return (
-    <section className="flex flex-col min-h-screen bg-center bg-cover bg-blend-overlay bg-black/70 bg-fixed bg-[url(./img/homepage/header.jpg)] text-white">
+    <header className="flex flex-col min-h-screen bg-center bg-cover bg-blend-overlay bg-black/50 bg-[url(./img/homepage/header.jpg)] text-white md:bg-fixed">
       <nav className="inset-0 z-50">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
           {/* title */}
           <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="./img/wonderfull_bali.png" className="h-12 w-full" alt="" />
+            <img src="./img/wonderfull_bali.png" className="h-12" alt="" />
           </a>
 
           {/* button */}
-          <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <div className="flex gap-2 md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             {/* darkmode button */}
-            <button id="theme-toggle" type="button" onClick={() => darkModeHandler()} className="dark:text-white hover:bg-[#1da868] hover:text-white dark:hover:bg-gray-700 dark:hover:text-white rounded-lg text-sm p-2.5">
+            <button
+              id="theme-toggle"
+              type="button"
+              onClick={() => darkModeHandler()}
+              className="focus:outline-none text-white focus:ring-2 focus:ring-white dark:text-gray-400 hover:bg-[#1da868] hover:text-white dark:hover:bg-gray-700 dark:hover:text-white rounded-lg text-sm p-2.5"
+            >
               {dark && <IoSunny className="" />}
               {!dark && <IoMoon className="" />}
             </button>
@@ -29,7 +34,7 @@ export default function Navbar() {
             <button
               type="button"
               data-dropdown-toggle="language-dropdown-menu"
-              className="inline-flex items-center font-medium justify-center px-4 py-2 text-sm dark:text-white rounded-lg cursor-pointer hover:bg-[#1da868] hover:text-white dark:hover:bg-gray-700 dark:hover:text-white"
+              className="inline-flex items-center font-medium justify-center px-4 py-2 text-sm dark:text-gray-400 rounded-lg cursor-pointer hover:bg-[#1da868] focus:outline-none focus:ring-2 focus:ring-white hover:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-600"
             >
               <svg className="w-5 h-5 rounded-full me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3900 3900">
                 <path fill="#b22234" d="M0 0h7410v3900H0z" />
@@ -56,7 +61,7 @@ export default function Navbar() {
                   <use xlinkHref="#e" x="2470" />
                 </g>
               </svg>
-              English (US)
+              ENG
             </button>
             {/* Dropdown */}
             <div className="z-50 hidden my-4 text-base list-none bg-white divide-y rounded-lg shadow dark:bg-gray-700" id="language-dropdown-menu">
@@ -78,7 +83,7 @@ export default function Navbar() {
                           />
                         </g>
                       </svg>
-                      English (US)
+                      ENG
                     </div>
                   </a>
                 </li>
@@ -90,39 +95,7 @@ export default function Navbar() {
                         <path d="M0 0h512v170.7H0z" />
                         <path fill="#d00" d="M0 170.7h512v170.6H0z" />
                       </svg>
-                      Deutsch
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-                    <div className="inline-flex items-center">
-                      <svg className="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-it" viewBox="0 0 512 512">
-                        <g fillRule="evenodd" strokeWidth="1pt">
-                          <path fill="#fff" d="M0 0h512v512H0z" />
-                          <path fill="#009246" d="M0 0h170.7v512H0z" />
-                          <path fill="#ce2b37" d="M341.3 0H512v512H341.3z" />
-                        </g>
-                      </svg>
-                      Italiano
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-                    <div className="inline-flex items-center">
-                      <svg className="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-cn" viewBox="0 0 512 512">
-                        <defs>
-                          <path id="a" fill="#ffde00" d="M1-.3L-.7.8 0-1 .6.8-1-.3z" />
-                        </defs>
-                        <path fill="#de2910" d="M0 0h512v512H0z" />
-                        <use width="30" height="20" transform="matrix(76.8 0 0 76.8 128 128)" xlinkHref="#a" />
-                        <use width="30" height="20" transform="rotate(-121 142.6 -47) scale(25.5827)" xlinkHref="#a" />
-                        <use width="30" height="20" transform="rotate(-98.1 198 -82) scale(25.6)" xlinkHref="#a" />
-                        <use width="30" height="20" transform="rotate(-74 272.4 -114) scale(25.6137)" xlinkHref="#a" />
-                        <use width="30" height="20" transform="matrix(16 -19.968 19.968 16 256 230.4)" xlinkHref="#a" />
-                      </svg>
-                      中文 (繁體)
+                      ID
                     </div>
                   </a>
                 </li>
@@ -131,7 +104,7 @@ export default function Navbar() {
             <button
               data-collapse-toggle="navbar-language"
               type="button"
-              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-[#1da868] focus:outline-none focus:ring-2 focus:ring-white dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 dark:hover:text-white"
               aria-controls="navbar-language"
               aria-expanded="false"
             >
@@ -143,8 +116,8 @@ export default function Navbar() {
           </div>
 
           {/* nav link */}
-          <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-            <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-[#1da868] rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+          <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-language">
+            <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-white rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
               <li>
                 <NavLink
                   to="/culturalgallery"
@@ -186,12 +159,20 @@ export default function Navbar() {
         </div>
       </nav>
       <div className="flex-1 flex items-center">
-        <div className="relative text-center mx-auto">
+        <div className="text-center mx-auto">
           <h1 className="text-5xl mb-6">Explore Bali With A Smile</h1>
-          <button className="absolute right-28 top-20 rounded-lg px-3 py-1 bg-[#1da868] text-white z-10">Find Now</button>
-          <input type="text" className="w-80 px-3 py-3 rounded-xl font-normal text-black outline outline-0" placeholder="City or Destination..." />
+          <div className="flex place-content-center">
+            <div className="relative flex w-96 h-12">
+              <button className="!absolute right-1 top-1 z-10 select-none rounded-xl py-2 px-4 text-center align-middle bg-[#1da868] text-white " type="button" data-ripple-light="true">
+                Find Now
+              </button>
+              <input type="text" className="h-full w-full rounded-xl px-4 py-2.5 pr-20 font-sans text-black font-normal text-blue-gray-700 outline outline-0" placeholder="City or Destination..." required />
+            </div>
+          </div>
+          {/* <button className="absolute right-28 top-20 rounded-lg px-3 py-1 bg-[#1da868] text-white z-10">Find Now</button>
+          <input type="text" className="w-80 px-3 py-3 rounded-xl font-normal text-black outline outline-0" placeholder={`City or Destination...`} /> */}
         </div>
       </div>
-    </section>
+    </header>
   );
 }
