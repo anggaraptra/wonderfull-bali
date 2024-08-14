@@ -20,7 +20,7 @@ export default function Footer() {
             </a>
             <div className="mb-4 md:text-wrap md:mb-0 ">
               <article className="text-sm text-gray-300 md:text-justify sm:text-center dark:text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lec magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo vel.
+                Hak cipta dilindungi. Ikuti kami di platform media sosial untuk pembaruan terbaru. Desain dan pengembangan oleh tim kami sendiri. Semua transaksi aman dan terenkripsi
               </article>
             </div>
             <div className="">

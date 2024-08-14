@@ -10,7 +10,7 @@ export default function Navbar() {
     document.body.classList.toggle('dark');
   }
   return (
-    <header className="flex flex-col min-h-screen bg-center bg-cover bg-blend-overlay bg-black/50 bg-[url(./img/homepage/header.jpg)] text-white md:bg-fixed">
+    <header className="flex flex-col min-h-screen bg-center bg-cover bg-blend-overlay bg-black/70 bg-[url(./img/homepage/header.jpg)] text-white md:bg-fixed">
       <nav className="inset-0 z-50">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
           {/* title */}
@@ -160,12 +160,12 @@ export default function Navbar() {
       </nav>
       <div className="flex-1 flex items-center">
         <div className="text-center mx-auto">
-          <h1 className="text-5xl mb-6">Explore Bali With A Smile</h1>
+          <h1 className="text-5xl mb-6 font-medium drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Explore Bali With A Smile</h1>
           <div className="flex place-content-center">
             <div className="relative flex w-96 h-12">
-              <button className="!absolute right-1 top-1 z-10 select-none rounded-xl py-2 px-4 text-center align-middle bg-[#1da868] text-white " type="button" data-ripple-light="true">
+              <a href="" className="!absolute right-1 top-1 z-10 select-none rounded-xl py-2 px-4 text-center align-middle bg-[#1da868] text-white hover:bg-green-700 hover:shadow-md transition-all" type="button" data-ripple-light="true">
                 Find Now
-              </button>
+              </a>
               <input type="text" className="h-full w-full rounded-xl px-4 py-2.5 pr-20 font-sans text-black font-normal text-blue-gray-700 outline outline-0" placeholder="City or Destination..." required />
             </div>
           </div>

@@ -2,6 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Agriculture from './pages/Agriculture';
+import AgricultureDetail from './pages/AgricultureDetail';
 import CulturalGallery from './pages/CulturalGallery';
 import Tourism from './pages/Tourism';
 import NotFound from './pages/NotFound';
@@ -11,7 +12,9 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/agriculture" element={<Agriculture />} />
+        <Route path="/agriculture" element={<Agriculture />}>
+          {/* <Route path="/tabanan" element={<AgricultureDetail />} /> */}
+        </Route>
         <Route path="/culturalgallery" element={<CulturalGallery />} />
         <Route path="/tourism" element={<Tourism />} />
         <Route path="*" element={<NotFound />} />
