@@ -28,7 +28,7 @@ export default function Tourism() {
             <h1 className="font-bold text-3xl">Best Price</h1>
             <p className="px-8">Lorem ipsum dolor sit amet, consectetur asadipiscing elit. Phasellus at nibh sit amet lacus gravida ultrices ut ut elit. Morbi sagittis dignissim purus finibus congue. Integer exesre nulla.</p>
             <div className="">
-              <button className="bg-[#1da868] px-6 py-3 rounded-2xl text-white uppercase hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md transition-all">Read More</button>
+              <button className="bg-second px-6 py-3 rounded-2xl text-white uppercase hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md transition-all">Read More</button>
             </div>
           </div>
           <div className="flex flex-col gap-5 items-center text-center">
@@ -38,7 +38,7 @@ export default function Tourism() {
             <h1 className="font-bold text-3xl">City Tours</h1>
             <p className="px-8">Lorem ipsum dolor sit amet, consectetur asadipiscing elit. Phasellus at nibh sit amet lacus gravida ultrices ut ut elit. Morbi sagittis dignissim purus finibus congue. Integer exesre nulla.</p>
             <div className="">
-              <button className="bg-[#1da868] px-6 py-3 rounded-2xl text-white uppercase hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md transition-all">Read More</button>
+              <button className="bg-second px-6 py-3 rounded-2xl text-white uppercase hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md transition-all">Read More</button>
             </div>
           </div>
           <div className="flex flex-col gap-5 items-center text-center">
@@ -48,12 +48,12 @@ export default function Tourism() {
             <h1 className="font-bold text-3xl">Photography</h1>
             <p className="px-8">Lorem ipsum dolor sit amet, consectetur asadipiscing elit. Phasellus at nibh sit amet lacus gravida ultrices ut ut elit. Morbi sagittis dignissim purus finibus congue. Integer exesre nulla.</p>
             <div className="">
-              <button className="bg-[#1da868] px-6 py-3 rounded-2xl text-white uppercase hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md transition-all">Read More</button>
+              <button className="bg-second px-6 py-3 rounded-2xl text-white uppercase hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md transition-all">Read More</button>
             </div>
           </div>
         </div>
       </Section>
-      <Section className="bg-[#295943] text-white">
+      <Section className="bg-main text-white dark:bg-gray-900">
         <div className="container mx-auto p-6">
           <div className="flex flex-col -mx-4 py-20 gap-6 md:flex-row">
             <div className="flex flex-col w-full lg:w-1/2 px-4 place-content-center items-center gap-8">
@@ -62,34 +62,34 @@ export default function Tourism() {
                 Sed porttitor eget elit non faucibus. Donec malesuada, augue at condimentum finibus, justo ligula vestibulum erat, et accumsan libero metus eget nisl. Nulla interdum est at nulla cursus, at rhoncus tellus accumsan.
               </p>
               <div className="flex justify-center gap-2">
-                <a href="" className="bg-white text-black px-6 py-4 uppercase font-bold rounded-xl hover:bg-[#1da868] hover:text-white   hover:drop-shadow-lg hover:shadow-md transition-all">
+                <a href="" className="bg-white text-black px-6 py-4 uppercase font-bold rounded-xl hover:bg-second hover:text-white   hover:drop-shadow-lg hover:shadow-md transition-all">
                   Read More
                 </a>
               </div>
             </div>
             <div className="grid grid-rows-4 gap-4 px-8 md:grid-cols-2 md:grid-rows-2 md:px-0">
-              <div className="flex flex-col gap-3 bg-[#1da868] p-10 px-14 rounded-xl items-center drop-shadow-lg shadow-lg">
+              <div className="flex flex-col gap-3 bg-second p-10 px-14 rounded-xl items-center drop-shadow-lg shadow-lg">
                 <div className="text-4xl">
                   <FaBusAlt />
                 </div>
                 <h1 className="text-3xl font-bold">Transport</h1>
                 <span className="text-xs">Free Transport</span>
               </div>
-              <div className="flex flex-col gap-3 bg-[#1da868] p-10 px-14 rounded-xl items-center drop-shadow-lg shadow-lg">
+              <div className="flex flex-col gap-3 bg-second p-10 px-14 rounded-xl items-center drop-shadow-lg shadow-lg">
                 <div className="text-4xl">
                   <FaGlobeAsia />
                 </div>
                 <h1 className="text-3xl font-bold">Tours</h1>
                 <span className="text-xs">Including Tour</span>
               </div>
-              <div className="flex flex-col gap-3 bg-[#1da868] p-10 px-14 rounded-xl items-center drop-shadow-lg shadow-lg">
+              <div className="flex flex-col gap-3 bg-second p-10 px-14 rounded-xl items-center drop-shadow-lg shadow-lg">
                 <div className="text-4xl">
                   <FiHome />
                 </div>
                 <h1 className="text-3xl font-bold">Camp Site</h1>
                 <span className="text-xs">Provide Camp Site</span>
               </div>
-              <div className="flex flex-col gap-3 bg-[#1da868] p-10 px-14 rounded-xl items-center drop-shadow-lg shadow-lg">
+              <div className="flex flex-col gap-3 bg-second p-10 px-14 rounded-xl items-center drop-shadow-lg shadow-lg">
                 <div className="text-4xl">
                   <FaPersonHiking />
                 </div>
@@ -110,19 +110,19 @@ export default function Tourism() {
               <div className="flex flex-col p-5 gap-4 md:flex-row md:p-0">
                 <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/tourism/melukat.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <h1 className="ps-10 p-6 text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Melukat</h1>
-                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-[#1da868] rounded-2xl hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md transition-all">
+                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md transition-all">
                     View More
                   </a>
                 </div>
                 <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/tourism/kuta_beach.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <h1 className="ps-10 p-6 text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Kuta Beach</h1>
-                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-[#1da868] rounded-2xl hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md transition-all">
+                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md transition-all">
                     View More
                   </a>
                 </div>
                 <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/tourism/bali_rafting.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <h1 className="ps-10 p-6 text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Rafting</h1>
-                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-[#1da868] rounded-2xl hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md transition-all">
+                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md transition-all">
                     View More
                   </a>
                 </div>

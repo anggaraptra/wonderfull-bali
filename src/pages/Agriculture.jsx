@@ -14,13 +14,13 @@ export default function Agriculture() {
       <Section className="p-10">
         <div className="flex flex-col justify-center items-center">
           <div className="p-8 pb-14">
-            <h1 className="text-4xl font-bold border-b-[3px] border-[#295943]">Daerah</h1>
+            <h1 className="text-4xl font-bold border-b-[3px] border-main">Daerah</h1>
           </div>
           <div className="flex flex-col justify-center items-center gap-10 mb-20 md:flex-row">
             <div className="relative w-80 h-[22rem] overflow-hidden rounded-xl shadow-md">
               <img src="./img/agriculture/tabanan.jpg" alt="" className="bg-cover h-[13.2rem]" />
               <div className="absolute top-[12rem] left-[5.7rem] px-4 py-2 text-center">
-                <a href="" className="bg-[#1da868] hover:bg-green-700 text-white py-2 px-4 rounded-xl hover:drop-shadow-lg hover:shadow-md transition-all">
+                <a href="/tabanan" className="bg-second hover:bg-green-700 text-white py-2 px-4 rounded-xl hover:drop-shadow-lg hover:shadow-md transition-all">
                   Tampilkan
                 </a>
               </div>
@@ -31,7 +31,7 @@ export default function Agriculture() {
             <div className="relative w-80 h-[22rem] overflow-hidden rounded-xl shadow-md">
               <img src="./img/agriculture/gianyar.jpg" alt="" className="bg-cover" />
               <div className="absolute top-[12rem] left-[5.7rem] px-4 py-2 text-center">
-                <a href="" className="bg-[#1da868] hover:bg-green-700 text-white py-2 px-4 rounded-xl hover:drop-shadow-lg hover:shadow-md transition-all">
+                <a href="/gianyar" className="bg-second hover:bg-green-700 text-white py-2 px-4 rounded-xl hover:drop-shadow-lg hover:shadow-md transition-all">
                   Tampilkan
                 </a>
               </div>
@@ -42,7 +42,7 @@ export default function Agriculture() {
             <div className="relative w-80 h-[22rem] overflow-hidden rounded-xl shadow-md">
               <img src="./img/agriculture/kintamani.jpg" alt="" className="bg-cover" />
               <div className="absolute top-[12rem] left-[5.7rem] px-4 py-2 text-center">
-                <a href="" className="bg-[#1da868] hover:bg-green-700 text-white py-2 px-4 rounded-xl hover:drop-shadow-lg hover:shadow-md transition-all">
+                <a href="/kintamani" className="bg-second hover:bg-green-700 text-white py-2 px-4 rounded-xl hover:drop-shadow-lg hover:shadow-md transition-all">
                   Tampilkan
                 </a>
               </div>
@@ -53,15 +53,14 @@ export default function Agriculture() {
           </div>
         </div>
       </Section>
-      <Section className="w-full h-full">
+      <Section className="w-full h-full border-b-4">
         <div className="flex flex-col justify-center items-center bg-cover bg-blend-overlay bg-black/50 bg-[url(./img/agriculture/agri_bg.jpg)] text-white p-20 gap-10 md:gap-14 md:py-26">
           <h1 className="font-bold text-xl text-center md:text-5xl md:px-60 drop-shadow-[0_5px_0_rgba(0,0,0,1)]">Support Petani-petani dan UMKM Lokal Bali</h1>
-          <a href="" className="px-5 py-3 bg-[#1da868] rounded-xl font-medium md:text-lg md:px-10 md:py-5 hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md transition-all">
+          <a href="" className="px-5 py-3 bg-second rounded-xl font-medium md:text-lg md:px-10 md:py-5 hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md transition-all">
             Klik Disini
           </a>
         </div>
       </Section>
-      <Section className="p-10"></Section>
       <Footer />
     </>
   );

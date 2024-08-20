@@ -29,12 +29,12 @@ export default function CulturalGallery() {
             </div>
             <div className="flex flex-col gap-5">
               <div className="flex flex-col gap-2">
-                <h1 className="text-3xl">Keindahan Budaya Bali</h1>
+                <h1 className="text-3xl font-medium">Keindahan Budaya Bali</h1>
                 <div className="flex gap-2 items-center">
                   <span>
                     <CiLocationOn />
                   </span>
-                  <span className="text-[#1da868] font-bold">Bali, Indonesia</span>
+                  <span className="text-second font-bold">Bali, Indonesia</span>
                 </div>
               </div>
               <p className="text-justify">
@@ -71,7 +71,7 @@ export default function CulturalGallery() {
             <div className="flex gap-3 flex-col">
               <div className="flex justify-between">
                 <span className="font-medium">Budaya Lain</span>
-                <a href="" className="text-[#1da868] hover:text-green-700  hover:drop-shadow-xl transition-all">
+                <a href="" className="text-second hover:text-green-700  hover:drop-shadow-xl transition-all">
                   Tampilkan
                 </a>
               </div>
@@ -81,7 +81,7 @@ export default function CulturalGallery() {
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Kerajinan</h1>
                     <span className="text-xs">Bali, Indonesia</span>
                   </div>
-                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-[#1da868] rounded-2xl hover:bg-green-700 hover:drop-shadow-xl transition-all">
+                  <a href="/craft" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-xl transition-all">
                     View More
                   </a>
                 </div>
@@ -90,7 +90,7 @@ export default function CulturalGallery() {
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Kebudayaan</h1>
                     <span className="text-xs">Bali, Indonesia</span>
                   </div>
-                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-[#1da868] rounded-2xl hover:bg-green-700 hover:drop-shadow-xl transition-all">
+                  <a href="/culture" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-xl transition-all">
                     View More
                   </a>
                 </div>
@@ -99,7 +99,7 @@ export default function CulturalGallery() {
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Tari-Tarian</h1>
                     <span className="text-xs">Bali, Indonesia</span>
                   </div>
-                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-[#1da868] rounded-2xl hover:bg-green-700 hover:drop-shadow-xl transition-all">
+                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-xl transition-all">
                     View More
                   </a>
                 </div>
@@ -108,7 +108,7 @@ export default function CulturalGallery() {
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Adat Istiadat</h1>
                     <span className="text-xs">Bali, Indonesia</span>
                   </div>
-                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-[#1da868] rounded-2xl hover:bg-green-700 hover:drop-shadow-xl transition-all">
+                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-xl transition-all">
                     View More
                   </a>
                 </div>

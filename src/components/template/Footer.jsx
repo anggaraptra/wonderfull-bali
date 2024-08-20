@@ -9,7 +9,7 @@ import { FaGithub } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#295943] dark:bg-gray-900">
+    <footer className="bg-main dark:bg-gray-900">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-6">
         {/* judul dan links */}
         <div className="flex flex-col md:flex-row md:gap-8 md:justify-between">
@@ -26,19 +26,19 @@ export default function Footer() {
             <div className="">
               <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Follow Us</h2>
               <div className="flex sm:mt-0">
-                <a href="#" className="text-gray-300 hover:text-[#1da868] dark:hover:text-white">
+                <a href="#" className="text-gray-300 hover:text-second dark:hover:text-white">
                   <FaInstagram />
                   <span className="sr-only">Instagram page</span>
                 </a>
-                <a href="#" className="text-gray-300 hover:text-[#1da868] dark:hover:text-white ms-5">
+                <a href="#" className="text-gray-300 hover:text-second dark:hover:text-white ms-5">
                   <IoLogoFacebook />
                   <span className="sr-only">Facebook</span>
                 </a>
-                <a href="#" className="text-gray-300 hover:text-[#1da868] dark:hover:text-white ms-5">
+                <a href="#" className="text-gray-300 hover:text-second dark:hover:text-white ms-5">
                   <FaXTwitter />
                   <span className="sr-only">Twitter page</span>
                 </a>
-                <a href="#" className="text-gray-300 hover:text-[#1da868] dark:hover:text-white ms-5">
+                <a href="#" className="text-gray-300 hover:text-second dark:hover:text-white ms-5">
                   <FaGithub />
                   <span className="sr-only">GitHub account</span>
                 </a>

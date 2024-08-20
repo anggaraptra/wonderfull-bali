@@ -10,7 +10,7 @@ export default function Navbar() {
     document.body.classList.toggle('dark');
   }
   return (
-    <header className="flex flex-col min-h-screen bg-center bg-cover bg-blend-overlay bg-black/70 bg-[url(./img/homepage/header.jpg)] text-white md:bg-fixed">
+    <header className="flex flex-col min-h-screen bg-center bg-cover bg-blend-overlay bg-black/70 bg-[url(./img/homepage/header.jpg)] text-white md:bg-fixed dark:bg-black/80">
       <nav className="inset-0 z-50">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
           {/* title */}
@@ -25,7 +25,7 @@ export default function Navbar() {
               id="theme-toggle"
               type="button"
               onClick={() => darkModeHandler()}
-              className="focus:outline-none text-white focus:ring-2 focus:ring-white dark:text-gray-400 hover:bg-[#1da868] hover:text-white dark:hover:bg-gray-700 dark:hover:text-white rounded-lg text-sm p-2.5"
+              className="focus:outline-none text-white focus:ring-2 focus:ring-white hover:bg-second hover:text-white dark:hover:bg-gray-700 dark:hover:text-white rounded-lg text-sm p-2.5"
             >
               {dark && <IoSunny className="" />}
               {!dark && <IoMoon className="" />}
@@ -34,7 +34,7 @@ export default function Navbar() {
             <button
               type="button"
               data-dropdown-toggle="language-dropdown-menu"
-              className="inline-flex items-center font-medium justify-center px-4 py-2 text-sm dark:text-gray-400 rounded-lg cursor-pointer hover:bg-[#1da868] focus:outline-none focus:ring-2 focus:ring-white hover:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-600"
+              className="inline-flex items-center font-medium justify-center px-4 py-2 text-sm rounded-lg cursor-pointer hover:bg-second focus:outline-none focus:ring-2 focus:ring-white hover:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-600"
             >
               <svg className="w-5 h-5 rounded-full me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3900 3900">
                 <path fill="#b22234" d="M0 0h7410v3900H0z" />
@@ -87,24 +87,12 @@ export default function Navbar() {
                     </div>
                   </a>
                 </li>
-                <li>
-                  <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-                    <div className="inline-flex items-center">
-                      <svg className="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 512 512">
-                        <path fill="#ffce00" d="M0 341.3h512V512H0z" />
-                        <path d="M0 0h512v170.7H0z" />
-                        <path fill="#d00" d="M0 170.7h512v170.6H0z" />
-                      </svg>
-                      ID
-                    </div>
-                  </a>
-                </li>
               </ul>
             </div>
             <button
               data-collapse-toggle="navbar-language"
               type="button"
-              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-[#1da868] focus:outline-none focus:ring-2 focus:ring-white dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 dark:hover:text-white"
+              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-second focus:outline-none focus:ring-2 focus:ring-white dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 dark:hover:text-white"
               aria-controls="navbar-language"
               aria-expanded="false"
             >
@@ -123,8 +111,8 @@ export default function Navbar() {
                   to="/culturalgallery"
                   className={({ isActive }) =>
                     isActive
-                      ? 'block py-2 px-3 md:p-0 bg-[#1da868] rounded md:bg-transparent md:text-[#1da868] md:dark:text-blue-500'
-                      : 'block py-2 px-3 md:p-0 rounded hover:bg-[#1da868] md:hover:bg-transparent md:hover:text-[#1da868] md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
+                      ? 'block py-2 px-3 md:p-0 bg-second rounded md:bg-transparent md:text-second md:dark:text-blue-500'
+                      : 'block py-2 px-3 md:p-0 rounded hover:bg-second md:hover:bg-transparent md:hover:text-second md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
                   }
                 >
                   Cultural Gallery
@@ -135,8 +123,8 @@ export default function Navbar() {
                   to="/tourism"
                   className={({ isActive }) =>
                     isActive
-                      ? 'block py-2 px-3 md:p-0 bg-[#1da868] rounded md:bg-transparent md:text-[#1da868] md:dark:text-blue-500'
-                      : 'block py-2 px-3 md:p-0 rounded hover:bg-[#1da868] md:hover:bg-transparent md:hover:text-[#1da868] md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
+                      ? 'block py-2 px-3 md:p-0 bg-second rounded md:bg-transparent md:text-second md:dark:text-blue-500'
+                      : 'block py-2 px-3 md:p-0 rounded hover:bg-second md:hover:bg-transparent md:hover:text-second md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
                   }
                 >
                   Tourism
@@ -147,8 +135,8 @@ export default function Navbar() {
                   to="/agriculture"
                   className={({ isActive }) =>
                     isActive
-                      ? 'block py-2 px-3 md:p-0 bg-[#1da868] rounded md:bg-transparent md:text-[#1da868] md:dark:text-blue-500'
-                      : 'block py-2 px-3 md:p-0 rounded hover:bg-[#1da868] md:hover:bg-transparent md:hover:text-[#1da868] md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
+                      ? 'block py-2 px-3 md:p-0 bg-second rounded md:bg-transparent md:text-second md:dark:text-blue-500'
+                      : 'block py-2 px-3 md:p-0 rounded hover:bg-second md:hover:bg-transparent md:hover:text-second md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
                   }
                 >
                   Agriculture
@@ -160,16 +148,21 @@ export default function Navbar() {
       </nav>
       <div className="flex-1 flex items-center">
         <div className="text-center mx-auto">
-          <h1 className="text-5xl mb-6 font-medium drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Explore Bali With A Smile</h1>
+          <h1 className="text-5xl mb-6 font-medium px-10 md:px-0 drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Explore Bali With A Smile</h1>
           <div className="flex place-content-center">
-            <div className="relative flex w-96 h-12">
-              <a href="" className="!absolute right-1 top-1 z-10 select-none rounded-xl py-2 px-4 text-center align-middle bg-[#1da868] text-white hover:bg-green-700 hover:shadow-md transition-all" type="button" data-ripple-light="true">
+            <div className="relative flex w-80 h-12 md:w-96">
+              <a
+                href=""
+                className="!absolute right-1 top-1 z-10 select-none rounded-xl py-2 px-4 text-center align-middle bg-second text-white hover:bg-green-700 hover:shadow-md transition-all dark:bg-blue-500 dark:hover:bg-gray-700"
+                type="button"
+                data-ripple-light="true"
+              >
                 Find Now
               </a>
               <input type="text" className="h-full w-full rounded-xl px-4 py-2.5 pr-20 font-sans text-black font-normal text-blue-gray-700 outline outline-0" placeholder="City or Destination..." required />
             </div>
           </div>
-          {/* <button className="absolute right-28 top-20 rounded-lg px-3 py-1 bg-[#1da868] text-white z-10">Find Now</button>
+          {/* <button className="absolute right-28 top-20 rounded-lg px-3 py-1 bg-second text-white z-10">Find Now</button>
           <input type="text" className="w-80 px-3 py-3 rounded-xl font-normal text-black outline outline-0" placeholder={`City or Destination...`} /> */}
         </div>
       </div>

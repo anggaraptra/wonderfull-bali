@@ -10,7 +10,7 @@ export default function Navbar() {
     document.body.classList.toggle('dark');
   }
   return (
-    <nav className="bg-[#295943] border-gray-200 backdrop-blur-lg dark:bg-gray-900 inset-0 z-50">
+    <nav className="bg-main border-gray-200 backdrop-blur-lg dark:bg-gray-900 inset-0 z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
         {/* title */}
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -24,7 +24,7 @@ export default function Navbar() {
             id="theme-toggle"
             type="button"
             onClick={() => darkModeHandler()}
-            className="focus:outline-none text-white focus:ring-2 focus:ring-white dark:text-gray-400 hover:bg-[#1da868] hover:text-white dark:hover:bg-gray-700 dark:hover:text-white rounded-lg text-sm p-2.5"
+            className="focus:outline-none text-white focus:ring-2 focus:ring-white hover:bg-second hover:text-white dark:hover:bg-gray-700 dark:hover:text-white rounded-lg text-sm p-2.5"
           >
             {dark && <IoSunny className="" />}
             {!dark && <IoMoon className="" />}
@@ -33,7 +33,7 @@ export default function Navbar() {
           <button
             type="button"
             data-dropdown-toggle="language-dropdown-menu"
-            className="inline-flex text-white items-center font-medium justify-center px-4 py-2 text-sm dark:text-gray-400 rounded-lg cursor-pointer hover:bg-[#1da868] focus:outline-none focus:ring-2 focus:ring-white hover:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-600"
+            className="inline-flex text-white items-center font-medium justify-center px-4 py-2 text-sm rounded-lg cursor-pointer hover:bg-second focus:outline-none focus:ring-2 focus:ring-white hover:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-600"
           >
             <svg className="w-5 h-5 rounded-full me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3900 3900">
               <path fill="#b22234" d="M0 0h7410v3900H0z" />
@@ -103,7 +103,7 @@ export default function Navbar() {
           <button
             data-collapse-toggle="navbar-language"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-[#1da868] focus:outline-none focus:ring-2 focus:ring-white dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 dark:hover:text-white"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-second focus:outline-none focus:ring-2 focus:ring-white dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 dark:hover:text-white"
             aria-controls="navbar-language"
             aria-expanded="false"
           >
@@ -116,14 +116,14 @@ export default function Navbar() {
 
         {/* nav link */}
         <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-language">
-          <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-[#1da868] rounded-lg bg-[#1da868] md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-[#295943] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-second rounded-lg bg-second md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-main dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <NavLink
                 to="/culturalgallery"
                 className={({ isActive }) =>
                   isActive
-                    ? 'block py-2 px-3 md:p-0 text-white bg-[#1da868] rounded md:bg-transparent md:text-[#1da868] md:dark:text-blue-500'
-                    : 'block py-2 px-3 md:p-0 text-white rounded hover:bg-[#1da868] md:hover:bg-transparent md:hover:text-[#1da868] md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
+                    ? 'block py-2 px-3 md:p-0 text-white bg-second rounded md:bg-transparent md:text-second md:dark:text-blue-500'
+                    : 'block py-2 px-3 md:p-0 text-white rounded hover:bg-second md:hover:bg-transparent md:hover:text-second md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
                 }
               >
                 Cultural Gallery
@@ -134,8 +134,8 @@ export default function Navbar() {
                 to="/tourism"
                 className={({ isActive }) =>
                   isActive
-                    ? 'block py-2 px-3 md:p-0 text-white bg-[#1da868] rounded md:bg-transparent md:text-[#1da868] md:dark:text-blue-500'
-                    : 'block py-2 px-3 md:p-0 text-white rounded hover:bg-[#1da868] md:hover:bg-transparent md:hover:text-[#1da868] md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
+                    ? 'block py-2 px-3 md:p-0 text-white bg-second rounded md:bg-transparent md:text-second md:dark:text-blue-500'
+                    : 'block py-2 px-3 md:p-0 text-white rounded hover:bg-second md:hover:bg-transparent md:hover:text-second md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
                 }
               >
                 Tourism
@@ -146,8 +146,8 @@ export default function Navbar() {
                 to="/agriculture"
                 className={({ isActive }) =>
                   isActive
-                    ? 'block py-2 px-3 md:p-0 text-white bg-[#1da868] rounded md:bg-transparent md:text-[#1da868] md:dark:text-blue-500'
-                    : 'block py-2 px-3 md:p-0 text-white rounded hover:bg-[#1da868] md:hover:bg-transparent md:hover:text-[#1da868] md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
+                    ? 'block py-2 px-3 md:p-0 text-white bg-second rounded md:bg-transparent md:text-second md:dark:text-blue-500'
+                    : 'block py-2 px-3 md:p-0 text-white rounded hover:bg-second md:hover:bg-transparent md:hover:text-second md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
                 }
               >
                 Agriculture
