@@ -7,7 +7,7 @@ export default function Agriculture() {
     <>
       <Navbar />
       <Section className="w-full">
-        <div className="flex h-80 bg-cover bg-blend-overlay bg-black/80 bg-[url(./img/agriculture/agri_header.jpg)] text-white">
+        <div className="flex h-80 bg-cover bg-blend-overlay bg-black/80 bg-[url(./img/agriculture/agri_header.jpg)] text-white dark:bg-black/90 transition-all">
           <h1 className="place-content-end font-bold text-5xl px-10 py-20 md:text-7xl md:px-16 drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Agriculture</h1>
         </div>
       </Section>
