@@ -9,7 +9,7 @@ import { FaGithub } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="bg-main dark:bg-gray-900">
+    <footer className="bg-main dark:bg-gray-900 transition-all">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-6">
         {/* judul dan links */}
         <div className="flex flex-col md:flex-row md:gap-8 md:justify-between">

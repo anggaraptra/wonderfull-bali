@@ -9,13 +9,13 @@ export default function Culture() {
     <>
       <Navbar />
       <Section className="w-full">
-        <div className="flex h-80 bg-cover bg-blend-overlay bg-black/80 bg-[url(./img/cultural/canang.jpg)] text-white ">
+        <div className="flex h-80 bg-cover bg-blend-overlay bg-black/80 bg-[url(./img/cultural/canang.jpg)] text-white dark:bg-black/90 transition-all">
           <h1 className="place-content-end font-bold text-5xl px-10 py-20 md:text-7xl md:px-16 drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Kebudayaan</h1>
         </div>
       </Section>
-      <Section className="p-10 pt-12 pb-20">
+      <Section className="p-10 pt-12 pb-20 dark:bg-gray-800 transition-all">
         <div className="flex flex-col gap-10 md:flex-row md:justify-between">
-          <div className="flex flex-col gap-5 md:w-3/4">
+          <div className="flex flex-col gap-5 md:w-3/4 dark:text-gray-400 transition-all">
             <div className="flex flex-col gap-5">
               <p className="text-justify">
                 Pesona keindahan alam di Pulau Bali memang sudah tidak perlu diragukan lagi. Sepanjang pulau kita dapat menikmati keindahan alam yang terbentang, mulai dari gunung, pantai bahkan danau. Namun, ada hal unik yang membuat Bali
@@ -29,12 +29,12 @@ export default function Culture() {
             </div>
             <div className="flex flex-col gap-5">
               <div className="flex flex-col gap-2">
-                <h1 className="text-3xl font-medium">Upacara Ngaben</h1>
+                <h1 className="text-3xl font-medium dark:text-white">Upacara Ngaben</h1>
                 <div className="flex gap-2 items-center">
                   <span>
                     <CiLocationOn />
                   </span>
-                  <span className="text-second font-bold">Bali, Indonesia</span>
+                  <span className="text-second font-bold dark:text-blue-500 transition-all">Bali, Indonesia</span>
                 </div>
               </div>
               <p className="text-justify">
@@ -70,8 +70,8 @@ export default function Culture() {
             </div>
             <div className="flex gap-3 flex-col">
               <div className="flex justify-between">
-                <span className="font-medium">Kebudayaan Lain</span>
-                <a href="" className="text-second hover:text-green-700  hover:drop-shadow-xl transition-all">
+                <span className="font-medium dark:text-white transition-all">Kebudayaan Lain</span>
+                <a href="" className="text-second hover:text-green-700 hover:drop-shadow-xl dark:text-blue-500 dark:hover:text-gray-700 transition-all">
                   Tampilkan
                 </a>
               </div>
@@ -81,7 +81,7 @@ export default function Culture() {
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Melasti</h1>
                     <span className="text-xs">Bali, Indonesia</span>
                   </div>
-                  <a href="/craft" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-xl transition-all">
+                  <a href="/craft" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-xl  dark:bg-blue-500 dark:hover:bg-gray-700 transition-all">
                     View More
                   </a>
                 </div>
@@ -90,7 +90,7 @@ export default function Culture() {
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Galungan</h1>
                     <span className="text-xs">Bali, Indonesia</span>
                   </div>
-                  <a href="/culture" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-xl transition-all">
+                  <a href="/culture" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-xl dark:bg-blue-500 dark:hover:bg-gray-700 transition-all">
                     View More
                   </a>
                 </div>
@@ -99,7 +99,7 @@ export default function Culture() {
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Odalan</h1>
                     <span className="text-xs">Bali, Indonesia</span>
                   </div>
-                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-xl transition-all">
+                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-xl dark:bg-blue-500 dark:hover:bg-gray-700 transition-all">
                     View More
                   </a>
                 </div>
@@ -108,7 +108,7 @@ export default function Culture() {
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Metatah</h1>
                     <span className="text-xs">Bali, Indonesia</span>
                   </div>
-                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-xl transition-all">
+                  <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-xl dark:bg-blue-500 dark:hover:bg-gray-700 transition-all">
                     View More
                   </a>
                 </div>

@@ -29,7 +29,7 @@ export default function CulturalGallery() {
             </div>
             <div className="flex flex-col gap-5">
               <div className="flex flex-col gap-2">
-                <h1 className="text-3xl font-medium">Keindahan Budaya Bali</h1>
+                <h1 className="text-3xl font-medium dark:text-white">Keindahan Budaya Bali</h1>
                 <div className="flex gap-2 items-center">
                   <span>
                     <CiLocationOn />
