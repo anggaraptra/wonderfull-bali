@@ -10,7 +10,7 @@ export default function CulturalGallery() {
       <Navbar />
       <Section className="w-full">
         <div className="flex h-80 bg-cover bg-blend-overlay bg-black/80 bg-[url(./img/cultural/culture_header.jpg)] text-white dark:bg-black/90 transition-all">
-          <h1 className="place-content-end font-bold text-5xl px-10 py-20 md:text-7xl md:px-16 drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Cultural Gallery</h1>
+          <h1 className="place-content-end font-bold text-5xl px-10 py-20 md:text-7xl md:px-16 drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Galeri Budaya</h1>
         </div>
       </Section>
       <Section className="p-10 pt-12 pb-20 dark:bg-gray-800 transition-all">

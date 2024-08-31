@@ -18,18 +18,18 @@ export default function Home() {
               </div>
             </div>
             <div className="grid grid-rows-3 w-full lg:w-1/2 px-8 justify-items-center items-center">
-              <h1 className="text-3xl md:text-4xl font-bold text-center">Know everything about Bali</h1>
+              <h1 className="text-3xl md:text-4xl font-bold text-center">Pulau Dewata</h1>
               <p className="text-center dark:text-gray-400 transition-all">
                 Bali adalah sebuah provinsi di Indonesia yang terletak pada bagian barat Kepulauan Nusa Tenggara dan beribu kota di Kota Denpasar. Pulau Bali, yang merupakan pulau terbesar di Provinsi Bali, memiliki beberapa julukan, di
                 antaranya Pulau Dewata dan Pulau Seribu Pura.
               </p>
               <div className="flex justify-center gap-1">
-                <input type="text" className="w-72 rounded-2xl px-3 py-2 font-normal text-black outline outline-0 md:w-80" placeholder="Enter your email..." />
+                <input type="text" className="w-72 rounded-2xl px-3 py-2 font-normal text-black outline outline-0 md:w-80" placeholder="Masukkan Email ....." />
                 <a
                   href=""
                   className="bg-white text-black px-4 py-2 uppercase font-bold rounded-2xl hover:bg-second hover:text-white hover:drop-shadow-lg hover:shadow-md transition-all dark:text-white dark:bg-gray-700 dark:hover:bg-blue-500"
                 >
-                  Register
+                  Daftar
                 </a>
               </div>
             </div>
@@ -39,13 +39,13 @@ export default function Home() {
       <Section className="bg-white dark:bg-gray-800 transition-all">
         <div className="container mx-auto p-6 pb-20">
           <div className="flex flex-col items-center font-bold pt-8 pb-10 md:pt-16 md:pb-20">
-            <span className="text-second text-sm drop-shadow-lg dark:text-blue-500 transition-all">Top Destination</span>
-            <h1 className="text-xl md:text-3xl drop-shadow-lg dark:text-white transition-all">Discover More</h1>
+            <span className="text-second text-sm drop-shadow-lg dark:text-blue-500 transition-all">Tujuan Populer</span>
+            <h1 className="text-xl md:text-3xl drop-shadow-lg dark:text-white transition-all">Temukan Lagi</h1>
           </div>
           <div className="md:px-10 flex flex-col gap-16 font-bold">
             <div className="flex flex-col gap-8">
-              <a href="/culturalgallery" className="text-lg md:text-xl border-b-4 w-40 border-second hover:border-black transition-all drop-shadow-xl shadow-lg dark:text-white dark:border-blue-500 dark:hover:border-gray-300">
-                Cultural Gallery
+              <a href="/culturalgallery" className="text-lg md:text-xl border-b-4 w-36 border-second hover:border-black transition-all drop-shadow-xl shadow-lg dark:text-white dark:border-blue-500 dark:hover:border-gray-300">
+                Galeri Budaya
               </a>
               <div className="flex flex-col p-5 gap-4 md:flex-row md:p-0">
                 <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/upacara_adat.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
@@ -60,8 +60,8 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col gap-6">
-              <a href="/tourism" className="text-lg md:text-xl border-b-4 w-20 border-second hover:border-black transition-all drop-shadow-xl shadow-lg dark:text-white dark:border-blue-500 dark:hover:border-gray-300">
-                Tourism
+              <a href="/tourism" className="text-lg md:text-xl border-b-4 w-24 border-second hover:border-black transition-all drop-shadow-xl shadow-lg dark:text-white dark:border-blue-500 dark:hover:border-gray-300">
+                Pariwisata
               </a>
               <div className="flex flex-col p-5 gap-4 md:flex-row md:p-0">
                 <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/wisata.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
@@ -76,8 +76,8 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col gap-6">
-              <a href="/agriculture" className="text-lg md:text-xl border-b-4 w-28 border-second hover:border-black transition-all drop-shadow-xl shadow-lg dark:text-white dark:border-blue-500 dark:hover:border-gray-300">
-                Agriculture
+              <a href="/agriculture" className="text-lg md:text-xl border-b-4 w-24 border-second hover:border-black transition-all drop-shadow-xl shadow-lg dark:text-white dark:border-blue-500 dark:hover:border-gray-300">
+                Pertanian
               </a>
               <div className="flex flex-col p-5 gap-4 md:flex-row md:p-0">
                 <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/padi.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">

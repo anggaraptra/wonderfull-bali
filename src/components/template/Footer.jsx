@@ -24,7 +24,7 @@ export default function Footer() {
               </article>
             </div>
             <div className="">
-              <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Follow Us</h2>
+              <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Ikuti Kami</h2>
               <div className="flex sm:mt-0">
                 <a href="#" className="text-gray-300 hover:text-second dark:hover:text-white">
                   <FaInstagram />
@@ -49,32 +49,32 @@ export default function Footer() {
           <div className="grid grid-rows-2 md:p-5 md:w-3/5">
             <div className="grid grid-cols-2 gap-8 sm:grid-cols-2 sm:col-span-2">
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Links</h2>
+                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Link</h2>
                 <ul className="text-gray-300 dark:text-gray-400 font-medium">
                   <li className="mb-4">
                     <a href="https://github.com/themesberg/flowbite" className="hover:underline ">
-                      Discover
+                      Temukan
                     </a>
                   </li>
                   <li className="mb-4">
                     <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">
-                      Services
+                      Layanan
                     </a>
                   </li>
                   <li className="mb-4">
                     <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">
-                      Community
+                      Komunitas
                     </a>
                   </li>
                   <li className="mb-4">
                     <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">
-                      About Us
+                      Tentang Kami
                     </a>
                   </li>
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Contact Us</h2>
+                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Hubungi Kami</h2>
                 <ul className="text-gray-300 dark:text-gray-400 font-medium">
                   <li className="mb-4 flex gap-2">
                     <div className="self-center">
