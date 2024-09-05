@@ -1,11 +1,9 @@
-import { FaLocationDot } from 'react-icons/fa6';
+import { FaLocationDot, FaXTwitter } from 'react-icons/fa6';
 import { MdMailOutline } from 'react-icons/md';
 import { BsTelephone } from 'react-icons/bs';
 import { IoMapOutline } from 'react-icons/io5';
-import { FaInstagram } from 'react-icons/fa';
+import { FaInstagram, FaGithub } from 'react-icons/fa';
 import { IoLogoFacebook } from 'react-icons/io';
-import { FaXTwitter } from 'react-icons/fa6';
-import { FaGithub } from 'react-icons/fa';
 
 export default function Footer() {
   return (

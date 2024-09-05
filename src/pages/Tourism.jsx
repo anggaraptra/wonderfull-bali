@@ -1,11 +1,9 @@
 import Navbar from '../components/template/Navbar';
 import Footer from '../components/template/Footer';
 import Section from '../components/template/Section';
-import { IoPricetagOutline } from 'react-icons/io5';
-import { IoMapOutline } from 'react-icons/io5';
+import { IoPricetagOutline, IoMapOutline } from 'react-icons/io5';
 import { CiCamera } from 'react-icons/ci';
-import { FaBusAlt } from 'react-icons/fa';
-import { FaGlobeAsia } from 'react-icons/fa';
+import { FaBusAlt, FaGlobeAsia } from 'react-icons/fa';
 import { FiHome } from 'react-icons/fi';
 import { FaPersonHiking } from 'react-icons/fa6';
 

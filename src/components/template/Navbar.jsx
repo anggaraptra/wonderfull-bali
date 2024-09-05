@@ -83,7 +83,7 @@ export default function Navbar() {
               className={`${
                 isHome
                   ? 'flex flex-col font-medium p-4 md:p-0 mt-4 border border-white rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0'
-                  : 'flex flex-col font-medium p-4 md:p-0 mt-4 border border-second rounded-lg bg-second md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-main dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 transition-all'
+                  : 'flex flex-col font-medium p-4 md:p-0 mt-4 border border-second rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-main dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 transition-all'
               }`}
             >
               <li>
@@ -94,7 +94,7 @@ export default function Navbar() {
                       ? `${
                           isHome
                             ? 'block py-2 px-3 md:p-0 bg-second rounded md:bg-transparent md:text-second md:dark:text-blue-500 transition-all'
-                            : 'block py-2 px-3 md:p-0 text-white bg-second rounded md:bg-transparent md:text-second md:dark:text-blue-500 transition-all'
+                            : 'block py-2 px-3 md:p-0 text-white rounded md:bg-transparent bg-second md:text-second md:dark:text-blue-500 dark:bg-gray-700 md:dark:bg-transparent transition-all'
                         }`
                       : `${
                           isHome
@@ -114,7 +114,7 @@ export default function Navbar() {
                       ? `${
                           isHome
                             ? 'block py-2 px-3 md:p-0 bg-second rounded md:bg-transparent md:text-second md:dark:text-blue-500 transition-all'
-                            : 'block py-2 px-3 md:p-0 text-white bg-second rounded md:bg-transparent md:text-second md:dark:text-blue-500 transition-all'
+                            : 'block py-2 px-3 md:p-0 text-white rounded md:bg-transparent bg-second md:text-second md:dark:text-blue-500 dark:bg-gray-700 md:dark:bg-transparent transition-all'
                         }`
                       : `${
                           isHome
@@ -134,7 +134,7 @@ export default function Navbar() {
                       ? `${
                           isHome
                             ? 'block py-2 px-3 md:p-0 bg-second rounded md:bg-transparent md:text-second md:dark:text-blue-500 transition-all'
-                            : 'block py-2 px-3 md:p-0 text-white bg-second rounded md:bg-transparent md:text-second md:dark:text-blue-500 transition-all'
+                            : 'block py-2 px-3 md:p-0 text-white rounded md:bg-transparent bg-second md:text-second md:dark:text-blue-500 dark:bg-gray-700 md:dark:bg-transparent transition-all'
                         }`
                       : `${
                           isHome
