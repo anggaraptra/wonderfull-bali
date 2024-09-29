@@ -9,7 +9,7 @@ export default function Culture() {
     <>
       <Navbar />
       <Section className="w-full">
-        <div className="flex h-80 bg-cover bg-blend-overlay bg-black/80 bg-[url(./img/cultural/canang.jpg)] text-white dark:bg-black/90 transition-all">
+        <div className="flex h-80 bg-cover bg-blend-overlay bg-black/80 bg-[url(/img/cultural/canang.jpg)] text-white dark:bg-black/90 transition-all">
           <h1 className="place-content-end font-bold text-5xl px-10 py-20 md:text-7xl md:px-16 drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Kebudayaan</h1>
         </div>
       </Section>
@@ -25,7 +25,7 @@ export default function Culture() {
                 Berkunjung ke Bali terasa lebih spesial jika kita berhasil mendapatkan momen seru dengan menyaksikan upacara adat di Bali. Umumnya upacara adat tersebut dapat disaksikan oleh wisatawan untuk sekadar menyaksikan atau
                 mendokumentasikannya.
               </p>
-              <img src="./img/cultural/ngaben.jpg" className="rounded-xl drop-shadow-xl shadow-lg cursor-pointer transition-all" alt="" />
+              <img src="/img/cultural/ngaben.jpg" className="rounded-xl drop-shadow-xl shadow-lg cursor-pointer transition-all" alt="" />
             </div>
             <div className="flex flex-col gap-5">
               <div className="flex flex-col gap-2">
@@ -46,8 +46,8 @@ export default function Culture() {
                 tidak tersisa apapun dari badannya dan akan menjadi abu. Masyarakat Pulau Bali, yang mayoritas merupakan umat Hindu, punya kepercayaan bahwa terdapat 5 komponen untuk membentuk manusia.
               </p>
               <div className="flex flex-col w-full gap-4 justify-center items-center md:grid md:grid-cols-2">
-                <img src="./img/cultural/ngaben_2.jpg" className="rounded-xl drop-shadow-xl shadow-lg cursor-pointer saturate-50 hover:saturate-100 transition-all" alt="" />
-                <img src="./img/cultural/ngaben_3.jpg" className="rounded-xl drop-shadow-xl shadow-lg cursor-pointer saturate-50 hover:saturate-100 transition-all" alt="" />
+                <img src="/img/cultural/ngaben_2.jpg" className="rounded-xl drop-shadow-xl shadow-lg cursor-pointer saturate-50 hover:saturate-100 transition-all" alt="" />
+                <img src="/img/cultural/ngaben_3.jpg" className="rounded-xl drop-shadow-xl shadow-lg cursor-pointer saturate-50 hover:saturate-100 transition-all" alt="" />
               </div>
               <p className="text-justify">
                 Ketika seseorang meninggal, Atma yang dimiliki seseorang masih akan tersimpan di dalam tubuh seseorang. Upacara Ngaben ini diadakan oleh masyarakat dengan tujuan untuk membebaskan Atma yang belum bisa keluar dari tubuh
@@ -76,7 +76,7 @@ export default function Culture() {
                 </a>
               </div>
               <div className="flex flex-col p-5 gap-4 md:grid md:grid-rows-4 md:flex-col md:p-0">
-                <div className="flex flex-col h-64 rounded-lg bg-[url(./img/cultural/upacara_melasti.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-64 rounded-lg bg-[url(/img/cultural/upacara_melasti.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <div className="flex flex-col ps-10 p-6 gap-1 items-start">
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Melasti</h1>
                     <span className="text-xs">Bali, Indonesia</span>
@@ -85,7 +85,7 @@ export default function Culture() {
                     View More
                   </a>
                 </div>
-                <div className="flex flex-col h-64 rounded-lg bg-[url(./img/cultural/galungan.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-64 rounded-lg bg-[url(/img/cultural/galungan.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <div className="flex flex-col ps-10 p-6 gap-1 items-start">
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Galungan</h1>
                     <span className="text-xs">Bali, Indonesia</span>
@@ -94,7 +94,7 @@ export default function Culture() {
                     View More
                   </a>
                 </div>
-                <div className="flex flex-col h-64 rounded-lg bg-[url(./img/cultural/odalan.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-64 rounded-lg bg-[url(/img/cultural/odalan.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <div className="flex flex-col ps-10 p-6 gap-1 items-start">
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Odalan</h1>
                     <span className="text-xs">Bali, Indonesia</span>
@@ -103,7 +103,7 @@ export default function Culture() {
                     View More
                   </a>
                 </div>
-                <div className="flex flex-col h-64 rounded-lg bg-[url(./img/cultural/metatah.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-64 rounded-lg bg-[url(/img/cultural/metatah.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <div className="flex flex-col ps-10 p-6 gap-1 items-start">
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Metatah</h1>
                     <span className="text-xs">Bali, Indonesia</span>

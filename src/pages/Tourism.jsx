@@ -12,7 +12,7 @@ export default function Tourism() {
     <>
       <Navbar />
       <Section className="w-full">
-        <div className="flex h-80 bg-cover bg-blend-overlay bg-black/80 bg-[url(./img/tourism/tourism_header.jpg)] text-white dark:bg-black/90 transition-all">
+        <div className="flex h-80 bg-cover bg-blend-overlay bg-black/80 bg-[url(/img/tourism/tourism_header.jpg)] text-white dark:bg-black/90 transition-all">
           <h1 className="place-content-end font-bold text-5xl px-10 py-20 md:text-7xl md:px-16 drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Pariwisata</h1>
         </div>
       </Section>
@@ -109,19 +109,19 @@ export default function Tourism() {
           <div className="md:px-10 flex flex-col gap-16">
             <div className="flex flex-col gap-8">
               <div className="flex flex-col p-5 gap-4 md:flex-row md:p-0">
-                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/tourism/melukat.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(/img/tourism/melukat.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <h1 className="ps-10 p-6 text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)] dark:text-gray-300">Melukat</h1>
                   <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md dark:bg-blue-500 dark:hover:bg-gray-700 transition-all">
                     Lihat
                   </a>
                 </div>
-                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/tourism/kuta_beach.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(/img/tourism/kuta_beach.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <h1 className="ps-10 p-6 text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)] dark:text-gray-300">Kuta Beach</h1>
                   <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md dark:bg-blue-500 dark:hover:bg-gray-700 transition-all">
                     Lihat
                   </a>
                 </div>
-                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/tourism/bali_rafting.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(/img/tourism/bali_rafting.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <h1 className="ps-10 p-6 text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)] dark:text-gray-300">Rafting</h1>
                   <a href="" className="ms-10 mb-8 text-md px-5 py-3 bg-second rounded-2xl hover:bg-green-700 hover:drop-shadow-lg hover:shadow-md dark:bg-blue-500 dark:hover:bg-gray-700 transition-all">
                     Lihat

@@ -11,10 +11,10 @@ export default function Home() {
           <div className="flex flex-col -mx-4 py-20 gap-6 md:flex-row">
             <div className="flex w-full lg:w-1/2 px-4 gap-4 md:mb-0 items-center justify-center">
               <div className="w-56 h-96 cursor-pointer">
-                <img src="./img/homepage/sanur_bali.jpg" alt="culture" className="object-cover w-full h-full rounded-xl saturate-150 drop-shadow-xl shadow-lg dark:saturate-100 transition-all" />
+                <img src="/img/homepage/sanur_bali.jpg" alt="culture" className="object-cover w-full h-full rounded-xl saturate-150 drop-shadow-xl shadow-lg dark:saturate-100 transition-all" />
               </div>
               <div className="w-40 h-72 cursor-pointer">
-                <img src="./img/homepage/kintamani_bali.jpg" alt="culture" className="object-cover w-full h-full rounded-xl saturate-150 drop-shadow-xl shadow-lg dark:saturate-100 transition-all" />
+                <img src="/img/homepage/kintamani_bali.jpg" alt="culture" className="object-cover w-full h-full rounded-xl saturate-150 drop-shadow-xl shadow-lg dark:saturate-100 transition-all" />
               </div>
             </div>
             <div className="grid grid-rows-3 w-full lg:w-1/2 px-8 justify-items-center items-center">
@@ -48,13 +48,13 @@ export default function Home() {
                 Galeri Budaya
               </a>
               <div className="flex flex-col p-5 gap-4 md:flex-row md:p-0">
-                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/upacara_adat.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(/img/homepage/upacara_adat.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <h1 className="text-center p-6 text-2xl drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)] dark:text-gray-300 transition-all">Tradisi</h1>
                 </div>
-                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/tarian.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(/img/homepage/tarian.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <h1 className="text-center p-6 text-2xl drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)] dark:text-gray-300 transition-all">Tari Tarian</h1>
                 </div>
-                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/kerajinan.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(/img/homepage/kerajinan.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <h1 className="text-center p-6 text-2xl drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)] dark:text-gray-300 transition-all">Kerajinan</h1>
                 </div>
               </div>
@@ -64,13 +64,13 @@ export default function Home() {
                 Pariwisata
               </a>
               <div className="flex flex-col p-5 gap-4 md:flex-row md:p-0">
-                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/wisata.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(/img/homepage/wisata.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <h1 className="text-center p-6 text-2xl drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)] dark:text-gray-300 transition-all">Tempat</h1>
                 </div>
-                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/swing_bali.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(/img/homepage/swing_bali.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <h1 className="text-center p-6 text-2xl drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)] dark:text-gray-300 transition-all">Wahana</h1>
                 </div>
-                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/pantai.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(/img/homepage/pantai.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <h1 className="text-center p-6 text-2xl drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)] dark:text-gray-300 transition-all">Pantai</h1>
                 </div>
               </div>
@@ -80,13 +80,13 @@ export default function Home() {
                 Pertanian
               </a>
               <div className="flex flex-col p-5 gap-4 md:flex-row md:p-0">
-                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/padi.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(/img/homepage/padi.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <h1 className="text-center p-6 text-2xl drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)] dark:text-gray-300 transition-all">Padi</h1>
                 </div>
-                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/pohon_kopi.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(/img/homepage/pohon_kopi.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <h1 className="text-center p-6 text-2xl drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)] dark:text-gray-300 transition-all">Kopi</h1>
                 </div>
-                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(./img/homepage/jeruk.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-80 w-full rounded-lg bg-[url(/img/homepage/jeruk.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-end text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <h1 className="text-center p-6 text-2xl drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)] dark:text-gray-300 transition-all">Jeruk</h1>
                 </div>
               </div>

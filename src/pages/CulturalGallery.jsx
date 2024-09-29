@@ -9,7 +9,7 @@ export default function CulturalGallery() {
     <>
       <Navbar />
       <Section className="w-full">
-        <div className="flex h-80 bg-cover bg-blend-overlay bg-black/80 bg-[url(./img/cultural/culture_header.jpg)] text-white dark:bg-black/90 transition-all">
+        <div className="flex h-80 bg-cover bg-blend-overlay bg-black/80 bg-[url(/img/cultural/culture_header.jpg)] text-white dark:bg-black/90 transition-all">
           <h1 className="place-content-end font-bold text-5xl px-10 py-20 md:text-7xl md:px-16 drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Galeri Budaya</h1>
         </div>
       </Section>
@@ -25,7 +25,7 @@ export default function CulturalGallery() {
                 Kebudayaan Bali dapat didefinisikan sebagai keseluruhan dari sistem nilai, perilaku, dan hasil karya manusia Bali yang terbentuk dari proses interaksi manusia Bali dengan lingkungannya. Dari upacara keagamaan yang sakral
                 hingga kesenian yang penuh warna. Setiap aspek kebudayaan menawarkan pengalaman yang unik dan tak terlupakan bagi setiap pengunjung baik lokal maupun asing.
               </p>
-              <img src="./img/cultural/bali_tradition.jpg" className="rounded-xl drop-shadow-xl shadow-lg cursor-pointer saturate-[0.7] transition-all" alt="" />
+              <img src="/img/cultural/bali_tradition.jpg" className="rounded-xl drop-shadow-xl shadow-lg cursor-pointer saturate-[0.7] transition-all" alt="" />
             </div>
             <div className="flex flex-col gap-5">
               <div className="flex flex-col gap-2">
@@ -46,8 +46,8 @@ export default function CulturalGallery() {
                 nilai-nilai tradisional yang diwariskan dari generasi ke generasi pada setiap daerah yang berbeda-beda.
               </p>
               <div className="flex flex-col w-full gap-4 justify-center items-center md:grid md:grid-cols-2">
-                <img src="./img/cultural/naga.jpg" className="rounded-xl drop-shadow-xl shadow-lg cursor-pointer saturate-50 hover:saturate-100 transition-all" alt="" />
-                <img src="./img/cultural/tari_kecak.jpg" className="rounded-xl drop-shadow-xl shadow-lg cursor-pointer saturate-50 hover:saturate-100 transition-all" alt="" />
+                <img src="/img/cultural/naga.jpg" className="rounded-xl drop-shadow-xl shadow-lg cursor-pointer saturate-50 hover:saturate-100 transition-all" alt="" />
+                <img src="/img/cultural/tari_kecak.jpg" className="rounded-xl drop-shadow-xl shadow-lg cursor-pointer saturate-50 hover:saturate-100 transition-all" alt="" />
               </div>
               <p className="text-justify">
                 Selain tarian, ada banyak jenis kebudayaan Bali yang lainnya. Seperti rumah adat, pakaian adat, dan tradisi. Khususnya untuk tradisi karena memiliki keunikan yang berbeda di tiap daerah. Itulah kebudayaan Bali yang beragam
@@ -76,7 +76,7 @@ export default function CulturalGallery() {
                 </a>
               </div>
               <div className="flex flex-col p-5 gap-4 md:grid md:grid-rows-4 md:flex-col md:p-0">
-                <div className="flex flex-col h-64 rounded-lg bg-[url(./img/cultural/kerajinan.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-64 rounded-lg bg-[url(/img/cultural/kerajinan.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <div className="flex flex-col ps-10 p-6 gap-1 items-start">
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Kerajinan</h1>
                     <span className="text-xs">Bali, Indonesia</span>
@@ -85,7 +85,7 @@ export default function CulturalGallery() {
                     View More
                   </a>
                 </div>
-                <div className="flex flex-col h-64 rounded-lg bg-[url(./img/cultural/canang.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-64 rounded-lg bg-[url(/img/cultural/canang.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <div className="flex flex-col ps-10 p-6 gap-1 items-start">
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Kebudayaan</h1>
                     <span className="text-xs">Bali, Indonesia</span>
@@ -94,7 +94,7 @@ export default function CulturalGallery() {
                     View More
                   </a>
                 </div>
-                <div className="flex flex-col h-64 rounded-lg bg-[url(./img/cultural/tarian.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-64 rounded-lg bg-[url(/img/cultural/tarian.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <div className="flex flex-col ps-10 p-6 gap-1 items-start">
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Tari-Tarian</h1>
                     <span className="text-xs">Bali, Indonesia</span>
@@ -103,7 +103,7 @@ export default function CulturalGallery() {
                     View More
                   </a>
                 </div>
-                <div className="flex flex-col h-64 rounded-lg bg-[url(./img/cultural/gebogan.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
+                <div className="flex flex-col h-64 rounded-lg bg-[url(/img/cultural/gebogan.jpg)] bg-center bg-cover bg-blend-overlay bg-black/70 place-content-between items-start text-white hover:bg-black/50 cursor-pointer transition-all drop-shadow-xl shadow-lg">
                   <div className="flex flex-col ps-10 p-6 gap-1 items-start">
                     <h1 className="text-3xl font-bold drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Adat Istiadat</h1>
                     <span className="text-xs">Bali, Indonesia</span>
