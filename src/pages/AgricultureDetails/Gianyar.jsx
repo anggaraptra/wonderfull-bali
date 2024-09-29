@@ -7,7 +7,7 @@ export default function Gianyar() {
   return (
     <>
       <Navbar />
-      <Section className="flex flex-col items-center justify-center bg-cover min-h-screen bg-blend-overlay bg-black/70 bg-[url(./img/agriculture/gianyar.jpg)] text-white dark:bg-black/80 transition-all">
+      <Section className="flex flex-col items-center justify-center bg-cover min-h-screen bg-blend-overlay bg-black/70 bg-[url(/img/agriculture/gianyar.jpg)] text-white dark:bg-black/80 transition-all">
         <div className="">
           <h1 className="font-bold text-5xl md:text-8xl drop-shadow-[1px_4px_2px_rgba(0,0,0,0.8)]">Gianyar</h1>
         </div>
@@ -19,7 +19,7 @@ export default function Gianyar() {
         <div className="flex flex-col gap-16 md:gap-20 dark:text-white transition-all">
           <div className="flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-0">
             <div className="max-w-lg">
-              <img src="./img/agriculture/cabai_merah.jpg" alt="" className="h-auto max-w-full rounded-xl" />
+              <img src="/img/agriculture/cabai_merah.jpg" alt="" className="h-auto max-w-full rounded-xl" />
             </div>
             <div className="flex flex-col gap-4 justify-center md:gap-10">
               <h1 className="font-bold text-3xl md:text-5xl">Cabai Merah</h1>
@@ -32,7 +32,7 @@ export default function Gianyar() {
           </div>
           <div className="flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-0">
             <div className="max-w-lg">
-              <img src="./img/agriculture/kelapa.jpg" alt="" className="h-auto max-w-full rounded-xl" />
+              <img src="/img/agriculture/kelapa.jpg" alt="" className="h-auto max-w-full rounded-xl" />
             </div>
             <div className="flex flex-col gap-4 justify-center md:gap-10">
               <h1 className="font-bold text-3xl md:text-5xl">Kelapa</h1>
@@ -47,7 +47,7 @@ export default function Gianyar() {
           </div>
           <div className="flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-0">
             <div className="max-w-lg">
-              <img src="./img/agriculture/jagung.jpg" alt="" className="h-auto max-w-full rounded-xl" />
+              <img src="/img/agriculture/jagung.jpg" alt="" className="h-auto max-w-full rounded-xl" />
             </div>
             <div className="flex flex-col gap-4 justify-center md:gap-10">
               <h1 className="font-bold text-3xl md:text-5xl">Jagung</h1>

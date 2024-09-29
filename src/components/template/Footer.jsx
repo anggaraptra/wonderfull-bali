@@ -14,7 +14,7 @@ export default function Footer() {
           {/* judul */}
           <div className="grid grid-rows-3 md:mb-0 md:w-1/4">
             <a href="" className="flex place-content-center items-center">
-              <img src="./img/wonderfull_bali.png" className="h-20 me-3" alt="" />
+              <img src="/img/wonderfull_bali.png" className="h-20 me-3" alt="" />
             </a>
             <div className="mb-4 md:text-wrap md:mb-0 ">
               <article className="text-sm text-gray-300 md:text-justify sm:text-center dark:text-gray-400">

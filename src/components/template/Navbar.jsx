@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
           {/* title */}
           <a href="/" className="flex items-center space-x-3">
-            <img src="./img/wonderfull_bali.png" className="h-12" alt="" />
+            <img src="/img/wonderfull_bali.png" className="h-12" alt="" />
           </a>
 
           {/* button */}
@@ -42,7 +42,7 @@ export default function Navbar() {
               data-dropdown-toggle="language-dropdown-menu"
               className="inline-flex text-white items-center font-medium justify-center px-4 py-2 text-sm rounded-lg cursor-pointer hover:bg-second focus:outline-none focus:ring-2 focus:ring-white hover:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-600 transition-all"
             >
-              <img className="h-3.5 w-3.5 rounded-full me-2" src="./img/id.png" alt="" />
+              <img className="h-3.5 w-3.5 rounded-full me-2" src="/img/id.png" alt="" />
               ID
             </button>
             {/* Dropdown */}
@@ -51,7 +51,7 @@ export default function Navbar() {
                 <li>
                   <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white transition-all" role="menuitem">
                     <div className="inline-flex items-center">
-                      <img className="h-3.5 w-3.5 rounded-full me-2" src="./img/us.png" alt="" />
+                      <img className="h-3.5 w-3.5 rounded-full me-2" src="/img/us.png" alt="" />
                       ENG
                     </div>
                   </a>
@@ -59,7 +59,7 @@ export default function Navbar() {
                 <li>
                   <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white transition-all" role="menuitem">
                     <div className="inline-flex items-center">
-                      <img className="h-3.5 w-3.5 rounded-full me-2" src="./img/id.png" alt="" />
+                      <img className="h-3.5 w-3.5 rounded-full me-2" src="/img/id.png" alt="" />
                       ID
                     </div>
                   </a>
