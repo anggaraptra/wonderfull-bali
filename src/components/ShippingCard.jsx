@@ -3,8 +3,8 @@ import { CiLocationOn } from 'react-icons/ci';
 
 export default function ShippingCard() {
   return (
-    <div className="relative">
-      <div className="absolute mx-auto bottom-[-2.3rem] left-[2.2rem] md:left-[27rem] ">
+    <div className="relative w-full h-full flex justify-center">
+      <div className="absolute mx-auto bottom-[-2.3rem]">
         <div className="px-10 py-5 text-center rounded-xl bg-white shadow-md dark:bg-gray-900 transition-all">
           <div className="flex flex-row text-black justify-between gap-6 md:gap-8">
             <div className="flex flex-row items-center justify-between gap-4 md:gap-6 dark:text-white transition-all">
