@@ -22,7 +22,7 @@ export default function Footer() {
               </article>
             </div>
             <div className="">
-              <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Ikuti Kami</h2>
+              <h5 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Ikuti Kami</h5>
               <div className="flex sm:mt-0">
                 <a href="#" className="text-gray-300 hover:text-second dark:hover:text-white">
                   <FaInstagram />
@@ -47,7 +47,7 @@ export default function Footer() {
           <div className="grid grid-rows-2 md:p-5 md:w-3/5">
             <div className="grid grid-cols-2 gap-8 sm:grid-cols-2 sm:col-span-2">
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Link</h2>
+                <h5 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Link</h5>
                 <ul className="text-gray-300 dark:text-gray-400 font-medium">
                   <li className="mb-4">
                     <a href="https://github.com/themesberg/flowbite" className="hover:underline ">
@@ -72,7 +72,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Hubungi Kami</h2>
+                <h5 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Hubungi Kami</h5>
                 <ul className="text-gray-300 dark:text-gray-400 font-medium">
                   <li className="mb-4 flex gap-2">
                     <div className="self-center">
@@ -111,7 +111,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-col md:col-span-2">
               {/* garis */}
-              <div className="">
+              <div className="w-full">
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
               </div>
               {/* copyright */}

@@ -12,7 +12,7 @@ export default function ShippingCard() {
                 <FiTruck />
               </div>
               <div className="flex flex-col">
-                <h1 className="text-sm font-bold md:text-xl">Pengiriman</h1>
+                <h2 className="text-sm font-bold md:text-xl">Pengiriman</h2>
                 <span className="text-xs text-main md:text-md dark:text-blue-400 transition-all">Semua Pesanan</span>
               </div>
             </div>
@@ -22,7 +22,7 @@ export default function ShippingCard() {
                 <CiLocationOn />
               </div>
               <div className="flex flex-col">
-                <h1 className="text-sm font-bold md:text-xl">Lokasi Toko</h1>
+                <h2 className="text-sm font-bold md:text-xl">Lokasi Toko</h2>
                 <span className="text-xs text-main md:text-md dark:text-blue-400 transition-all">Temukan Toko Terdekat</span>
               </div>
             </div>
