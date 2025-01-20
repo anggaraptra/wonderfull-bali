@@ -111,7 +111,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-col md:col-span-2">
               {/* garis */}
-              <div className="">
+              <div className="w-full">
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
               </div>
               {/* copyright */}

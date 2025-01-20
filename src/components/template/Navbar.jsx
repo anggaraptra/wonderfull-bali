@@ -17,7 +17,7 @@ export default function Navbar() {
   const isHome = location.pathname === '/';
 
   return (
-    <header className={`${isHome ? 'flex flex-col min-h-screen bg-center bg-cover bg-blend-overlay bg-black/70 bg-[url(/img/homepage/header.webp)] text-white md:bg-fixed dark:bg-black/80 transition-all' : ''}`}>
+    <header className={`${isHome ? 'flex flex-col min-h-screen bg-cover bg-blend-overlay bg-black/70 bg-[url(/img/homepage/bali.webp)] text-white md:bg-fixed dark:bg-black/80 transition-all' : ''}`}>
       <nav className={`${isHome ? 'inset-0 z-50' : 'bg-main border-gray-200 backdrop-blur-lg dark:bg-gray-900 inset-0 z-50 transition-all'}`}>
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
           {/* title */}
@@ -39,6 +39,7 @@ export default function Navbar() {
             </button>
             {/* change languange button */}
             <button
+              type="button"
               data-dropdown-toggle="language-dropdown-menu"
               className="inline-flex text-white items-center font-medium justify-center px-4 py-2 text-sm rounded-lg cursor-pointer hover:bg-second focus:outline-none focus:ring-2 focus:ring-white hover:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-600 transition-all"
             >
