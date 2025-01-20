@@ -16,7 +16,7 @@ export default function Kintamani() {
         <ShippingCard />
       </Section>
       <Section className="w-full p-10 pt-40 pb-28 dark:bg-gray-800 transition-all">
-        <div className="flex flex-col gap-16 md:gap-20 dark:text-white transition-all">
+        <div className="flex flex-col gap-16 md:gap-20 px-12 dark:text-white transition-all">
           <div className="flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-0">
             <div className="max-w-lg">
               <img src="/img/agriculture/jeruk_kintamani.jpg" alt="" className="h-auto max-w-full rounded-xl" />
